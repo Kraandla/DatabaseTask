@@ -1,5 +1,4 @@
-﻿using DatabaseTask.Core.Domain;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 
 namespace DatabaseTask.Data
@@ -11,6 +10,5 @@ namespace DatabaseTask.Data
 
         // näide, kuidas teha, kui lisate domaini alla ühe objekti
         // migratsioonid peavad tulema siia libary-sse e TARge20.Data alla.
-        public DbSet<Employee> Employee { get; set; }
     }
 }
